@@ -41,7 +41,7 @@ A modelagem de dados pode ser dividida em várias fases, incluindo:
 Modelo Conceitual: Nesta fase, são identificadas as principais entidades (ou objetos de dados), bem como os relacionamentos entre elas. Isso fornece uma visão de alto nível dos dados na organização.
 Modelo Dimensional: A partir da definição das entidades, elas são organizadas em dois grupos: “dimensões” e “fatos”. As tabelas fato armazenam as medidas quantitativas a serem analisadas, como, por exemplo, cada venda em um DW de vendas. Já as tabelas dimensão contêm detalhes descritivos ou atributos sobre as dimensões. Ainda no exemplo das vendas, tabelas dimensões trariam informações sobre tempo, localidade, produtos, clientes, vendedores etc. O modelo dimensional visa, ainda, como relacionar as tabelas fato e dimensão entre si.
 Modelo Lógico: Uma vez que o modelo conceitual é definido, ele pode ser transformado em um modelo lógico, que detalha a estrutura dos dados, incluindo tabelas, colunas, tipos de dados e relações entre as tabelas. Este modelo ainda não está atrelado a um sistema de gerenciamento de banco de dados específico.
-Modelo Físico: O modelo lógico é então traduzido em um modelo físico que define como os dados serão armazenados em um banco de dados específico. Ele inclui detalhes como a definição de tabelas, índices, triggers, procedimentos armazenados e outros elementos específicos do sistema de gerenciamento de banco de dados.
+Modelo Físico: O modelo lógico é então traduzido em um modelo físico que define como os dados serão armazenados em um banco de dados específico. Ele inclui detalhes como a definição de tabelas, índices, triggers, procedimentos armazenados e outros elementos específicos do sistema de gerenciamento de banco de dados.\
 **2.1.	Modelo Conceitual**\
 Entidades
 Empresa	(Clientes):	Representa	as	empresas	que	contratam	os	serviços	da DSAMarketSmart.
@@ -260,7 +260,7 @@ O código SQL para implementação do primeiro modelo físico está anexado na p
 
 **3.	Modelagem Avançada**\
 **3.1.	Slowly Changing Dimensions**\
-Slowly Changing Dimensios (SCD) são dimensões que mudam lentamente ao longo do tempo. Para sua aplicação, pode ser feito, por exemplo, um histórico de mudanças. 
+Slowly Changing Dimensios (SCD) são dimensões que mudam lentamente ao longo do tempo. Para sua aplicação, pode ser feito, por exemplo, um histórico de mudanças.\ 
 **3.2.	 Junk Dimensions**\
 Dimensões que combinam diversos atributos categóricos que possuem baixa cardinalidade e não possuem relação direta entre si em uma mesma tabela, com o intuito de evitar a criação de várias dimensões menores e simplificar o modelo.
 **3.3.	 Role-Playing Dimensions**\
