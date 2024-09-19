@@ -262,6 +262,7 @@ O código SQL para implementação do primeiro modelo físico está anexado na p
 **3.	Modelagem Avançada**\
 **3.1.	Slowly Changing Dimensions**\
 Slowly Changing Dimensios (SCD) são dimensões que mudam lentamente ao longo do tempo. Para sua aplicação, pode ser feito, por exemplo, um histórico de mudanças. 
+
 **3.2.	 Junk Dimensions**
 
 Dimensões que combinam diversos atributos categóricos que possuem baixa cardinalidade e não possuem relação direta entre si em uma mesma tabela, com o intuito de evitar a criação de várias dimensões menores e simplificar o modelo.
