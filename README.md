@@ -3,7 +3,7 @@ Modelagem e Implementação de um Data Warehouse de Marketing, usando Docker e u
 
 Projeto feito no curso "Modelagem e Análise de Dados com Power BI" da Pós-Graduação em Análise de Dados da Data Science Academy/ Faculdade VINCIT.
 
-**1.	Definição do Problema de Negócio**
+**1.	Definição do Problema de Negócio**\
 DSAMarketSmart é uma agência de marketing digital que se destaca na criação e execução de estratégias de comunicação digital para empresas de diversos setores. A empresa oferece uma ampla gama de serviços que incluem campanhas de e-mail marketing, gestão de redes sociais, anúncios pagos, otimização para motores de busca (SEO) e análise de dados. Utilizando uma plataforma interna, a DSAMarketSmart gerencia todas as operações de marketing digital de seus clientes, assegurando que cada campanha seja cuidadosamente monitorada e otimizada para alcançar os melhores resultados possíveis.
 
 O cenário de negócio da DSAMarketSmart é dinâmico e competitivo, exigindo uma abordagem flexível e personalizada para cada cliente. As empresas que contratam os serviços da DSAMarketSmart buscam promover seus produtos e serviços através de campanhas eficazes e direcionadas. Essas campanhas, que constituem o núcleo das atividades da agência, são meticulosamente planejadas para atingir objetivos específicos, como aumentar a visibilidade da marca, gerar leads qualificados ou impulsionar vendas.
